@@ -41,63 +41,159 @@
 
 <!-- Sezione Catalogo -->
 <section class="catalogo">
-    <a href="premi.html" class="hero-award-badge"><i class='bx bxs-trophy'></i> Miele di Acacia Premiato con 2 Gocce d'Oro e 1 Goccia d'Oro 2026 — Scopri i Premi</a>
+    <a href="premi.html" class="hero-award-badge"><i class='bx bxs-trophy'></i> Miele di Acacia Premiato al Concorso Tre Gocce d'Oro — Stesso prezzo dell'Acacia classica!</a>
     <h1>Il Nostro Catalogo</h1>
     <p>Dalle colline di Montecalvo Versiggia, i frutti genuini del lavoro delle nostre api.</p>
 
-    <!-- Categoria: I Nostri Mieli -->
-    <h2 class="categoria-titolo">I Nostri Mieli</h2>
+    <!-- Riepilogo Listino Prezzi Mieli -->
+    <div class="listino-riepilogo">
+        <div class="listino-tier">
+            <div>
+                <h3><i class='bx bxs-droplet'></i> Mieli Classici &amp; Millefiori 2026</h3>
+                <p>Castagno, Melata, Erba Medica, Tarassaco, Ailanto e Millefiori di quest'anno (a base di Rovo).</p>
+            </div>
+            <div class="listino-prezzi-row">
+                <span class="listino-chip">250 g: <strong>€5,00</strong></span>
+                <span class="listino-chip">500 g: <strong>€7,00</strong></span>
+                <span class="listino-chip">1 Kg: <strong>€12,00</strong></span>
+            </div>
+        </div>
+
+        <div class="listino-tier tier-oro">
+            <div>
+                <h3><i class='bx bxs-trophy'></i> Acacia &amp; Acacia Premiata</h3>
+                <p>L'<strong>Acacia Premiata (Tre Gocce d'Oro)</strong> è disponibile nei formati da <strong>250g e 500g allo stesso prezzo dell'Acacia normale</strong> per dare a tutti la possibilità di provarla!</p>
+            </div>
+            <div class="listino-prezzi-row">
+                <span class="listino-chip">250 g: <strong>€6,00</strong></span>
+                <span class="listino-chip">500 g: <strong>€8,00</strong></span>
+                <span class="listino-chip">1 Kg (solo classica): <strong>€14,00</strong></span>
+            </div>
+        </div>
+
+        <div class="listino-tier">
+            <div>
+                <h3><i class='bx bxs-purchase-tag'></i> Millefiori dello Scorso Anno</h3>
+                <p>Tre selezioni speciali dello scorso anno a prezzo agevolato: base <strong>Acacia</strong>, Primaverile base <strong>Tarassaco</strong> ed Estivo base <strong>Ciliegio</strong>.</p>
+            </div>
+            <div class="listino-prezzi-row">
+                <span class="listino-chip">250 g: <strong>€4,00</strong></span>
+                <span class="listino-chip">500 g: <strong>€6,00</strong></span>
+                <span class="listino-chip">1 Kg: <strong>€11,00</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categoria: I Nostri Mieli Monofloreali -->
+    <h2 class="categoria-titolo">I Nostri Mieli Monofloreali</h2>
     <div class="prodotti">
-        <!-- Miele di Acacia -->
+        <!-- Miele di Acacia Premiato -->
         <div class="card-prodotto">
-            <span class="card-badge-oro"><i class='bx bxs-trophy'></i> 2 Gocce d'Oro</span>
-            <a href="acacia.html">
-                <img src="images/acacia_apiario.jpg" alt="Fioritura di Acacia nel nostro apiario">
-                <h2>Miele di Acacia</h2>
-                <p>Premiato al Concorso Nazionale Tre Gocce d'Oro 2026: delicato, purissimo e cristallino.</p>
+            <span class="card-badge-oro"><i class='bx bxs-trophy'></i> Tre Gocce d'Oro</span>
+            <a href="acacia.html#premiata">
+                <img src="images/apiario_fioritura_acacia.jpg" alt="Miele di Acacia Premiato Tre Gocce d'Oro">
+                <h2>Miele di Acacia Premiato</h2>
+                <p>I lotti vincitori al Concorso Nazionale: solo in vasetti da 250g e 500g allo stesso prezzo dell'Acacia normale per permettere a tutti di provarla!</p>
+                <span class="card-prezzi-pill">250g €6 • 500g €8</span>
             </a>
         </div>
 
-        <!-- Miele Millefiori -->
-        <div class="card-prodotto"><a href="millefiori.html">
-            <img src="images/prato_fiorito_arnie.jpg" alt="Miele Millefiori e fioriture spontanee in apiario">
-            <h2>Miele Millefiori</h2>
-            <p>L'essenza del nostro territorio racchiusa in tre varietà stagionali: Invernale, Estivo e Autunnale.</p></a>
+        <!-- Miele di Acacia -->
+        <div class="card-prodotto">
+            <a href="acacia.html#classica">
+                <img src="images/acacia_apiario.jpg" alt="Fioritura di Acacia nel nostro apiario">
+                <h2>Miele di Acacia</h2>
+                <p>Dolce, limpido e cristallino, raccolto tra i boschi di Robinia in fiore delle nostre colline.</p>
+                <span class="card-prezzi-pill">250g €6 • 500g €8 • 1Kg €14</span>
+            </a>
         </div>
 
         <!-- Miele di Castagno -->
         <div class="card-prodotto"><a href="castagno.html">
             <img src="images/apiario_castagno_autunno.jpg" alt="Arnie nel bosco di castagno">
             <h2>Miele di Castagno</h2>
-            <p>Intenso e ambrato, con quel retrogusto amarognolo che conquista i palati più decisi.</p></a>
+            <p>Intenso e ambrato, con quel retrogusto amarognolo che conquista i palati più decisi.</p>
+            <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span></a>
         </div>
 
         <!-- Miele di Melata -->
         <div class="card-prodotto"><a href="melata.html">
             <img src="images/apiario_bosco_montagna.jpg" alt="Apiario nei boschi dell'Oltrepò per il Miele di Melata">
             <h2>Miele di Melata</h2>
-            <p>Il "miele di bosco": scuro, denso e ricchissimo di sali minerali, ideale per gli sportivi.</p></a>
+            <p>Il "miele di bosco": scuro, denso e ricchissimo di sali minerali, ideale per gli sportivi.</p>
+            <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span></a>
         </div>
 
         <!-- Miele di Erba Medica -->
         <div class="card-prodotto"><a href="erba_medica.html">
             <img src="images/apiario_erba_medica.jpg" alt="Arnie tra i fiori viola di Erba Medica">
             <h2>Miele di Erba Medica</h2>
-            <p>Il sapore della tradizione: delicato, con note di fieno fresco, perfetto per ogni momento.</p></a>
-        </div>
-
-        <!-- Miele di Ailanto -->
-        <div class="card-prodotto"><a href="ailanto.html">
-            <img src="images/ailanto.jpg" alt="Miele di Ailanto">
-            <h2>Miele di Ailanto</h2>
-            <p>Una rarità aromatica dal profumo inconfondibile di pesca matura e uva moscata.</p></a>
+            <p>Il sapore della tradizione: delicato, con note di fieno fresco, perfetto per ogni momento.</p>
+            <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span></a>
         </div>
 
         <!-- Miele di Tarassaco -->
         <div class="card-prodotto"><a href="tarassaco.html">
             <img src="images/tarassaco_card.png" alt="Miele di Tarassaco">
             <h2>Miele di Tarassaco</h2>
-            <p>Energia pura e azione depurativa: un miele dal carattere forte e cristallizzazione cremosa.</p></a>
+            <p>Energia pura e azione depurativa: un miele dal carattere forte e cristallizzazione cremosa.</p>
+            <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span></a>
+        </div>
+
+        <!-- Miele di Ailanto -->
+        <div class="card-prodotto"><a href="ailanto.html">
+            <img src="images/ailanto.jpg" alt="Miele di Ailanto">
+            <h2>Miele di Ailanto</h2>
+            <p>Una rarità aromatica dal profumo inconfondibile di pesca matura e uva moscata.</p>
+            <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span></a>
+        </div>
+    </div>
+
+    <!-- Categoria: I Nostri Mieli Millefiori -->
+    <h2 class="categoria-titolo">I Nostri Mieli Millefiori</h2>
+    <div class="prodotti">
+        <!-- Millefiori di Quest'Anno a base di Rovo -->
+        <div class="card-prodotto">
+            <span class="card-badge-nuovo">Nuovo Raccolto</span>
+            <a href="millefiori.html#rovo">
+                <img src="images/prato_fiorito_arnie.jpg" alt="Millefiori di quest'anno a base di Rovo">
+                <h2>Millefiori di Quest'Anno (Base Rovo)</h2>
+                <p>Il nuovo raccolto a prevalenza di fiori di rovo selvatico: sapore rotondo, fruttato e profumatissimo.</p>
+                <span class="card-prezzi-pill">250g €5 • 500g €7 • 1Kg €12</span>
+            </a>
+        </div>
+
+        <!-- Millefiori Scorso Anno a base di Acacia -->
+        <div class="card-prodotto">
+            <span class="card-badge-occasione">Scorso Anno</span>
+            <a href="millefiori.html#millefiori-acacia">
+                <img src="images/apiario_estate_melari.jpg" alt="Millefiori dello scorso anno a base di Acacia">
+                <h2>Millefiori Scorso Anno (Base Acacia)</h2>
+                <p>Millefiori chiarissimo e delicato dello scorso anno con prevalenza di nettare d'Acacia, a prezzo speciale.</p>
+                <span class="card-prezzi-pill">250g €4 • 500g €6 • 1Kg €11</span>
+            </a>
+        </div>
+
+        <!-- Millefiori Primaverile Scorso Anno a base di Tarassaco -->
+        <div class="card-prodotto">
+            <span class="card-badge-occasione">Scorso Anno</span>
+            <a href="millefiori.html#millefiori-tarassaco">
+                <img src="images/apiario_primavera.jpg" alt="Millefiori Primaverile dello scorso anno a base di Tarassaco">
+                <h2>Millefiori Primaverile (Base Tarassaco)</h2>
+                <p>Raccolta primaverile dello scorso anno a base di Tarassaco: naturalmente cremoso, floreale ed energizzante.</p>
+                <span class="card-prezzi-pill">250g €4 • 500g €6 • 1Kg €11</span>
+            </a>
+        </div>
+
+        <!-- Millefiori Estivo Scorso Anno a base di Ciliegio -->
+        <div class="card-prodotto">
+            <span class="card-badge-occasione">Scorso Anno</span>
+            <a href="millefiori.html#millefiori-ciliegio">
+                <img src="images/ciliegio.jpg" alt="Millefiori Estivo dello scorso anno a base di Ciliegio">
+                <h2>Millefiori Estivo (Base Ciliegio)</h2>
+                <p>Raccolta dello scorso anno a base di fiori di Ciliegio: aromatico, caldo e dalle piacevoli note fruttate.</p>
+                <span class="card-prezzi-pill">250g €4 • 500g €6 • 1Kg €11</span>
+            </a>
         </div>
     </div>
 

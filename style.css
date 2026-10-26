@@ -1783,3 +1783,193 @@ footer a {
         justify-content: center;
     }
 }
+
+/* =====================================================
+   LISTINO PREZZI & VARIETÀ MIELI (CATALOGO / SCHEDE)
+   ===================================================== */
+
+.listino-riepilogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 2rem auto 1rem;
+    text-align: left;
+}
+
+.listino-tier {
+    background: var(--other-color);
+    border: 1px solid rgba(255, 159, 13, 0.25);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listino-tier.tier-oro {
+    border: 2px solid #ffd700;
+    background: linear-gradient(145deg, rgba(255, 159, 13, 0.14) 0%, var(--other-color) 100%);
+}
+
+.listino-tier h3 {
+    color: var(--main-color);
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.listino-tier p {
+    font-size: 0.9rem !important;
+    color: var(--second-color) !important;
+    margin: 0 0 1rem 0 !important;
+    line-height: 1.5 !important;
+}
+
+.listino-prezzi-row {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.listino-chip {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 159, 13, 0.35);
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.88rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.listino-chip strong {
+    color: var(--main-color);
+    font-size: 1rem;
+}
+
+.card-prezzi-pill {
+    display: inline-block;
+    margin-top: auto;
+    padding: 6px 14px;
+    background: rgba(255, 159, 13, 0.14);
+    border: 1px solid rgba(255, 159, 13, 0.4);
+    border-radius: 30px;
+    color: #ffd700;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.card-badge-nuovo {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+    color: #fff;
+    font-size: 0.76rem;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    z-index: 5;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.card-badge-occasione {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: linear-gradient(135deg, #e65100 0%, #ff9f0d 100%);
+    color: #111;
+    font-size: 0.76rem;
+    font-weight: 800;
+    padding: 5px 12px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    z-index: 5;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.prezzo-gruppo-box {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 159, 13, 0.25);
+    border-radius: 14px;
+    padding: 1.4rem;
+    margin-bottom: 1.8rem;
+}
+
+.prezzo-gruppo-box.gruppo-premiato {
+    border: 2px solid #ffd700;
+    background: linear-gradient(145deg, rgba(255, 215, 0, 0.09) 0%, rgba(255, 159, 13, 0.04) 100%);
+}
+
+.prezzo-gruppo-titolo {
+    font-size: 1.2rem;
+    color: var(--main-color);
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.prezzo-nota-speciale {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    margin-bottom: 1.1rem;
+    line-height: 1.5;
+    background: rgba(255, 159, 13, 0.12);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border-left: 3px solid #ffd700;
+}
+
+.varieta-miele-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 159, 13, 0.28);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.4rem;
+    transition: border-color 0.3s ease;
+}
+
+.varieta-miele-card:hover {
+    border-color: var(--main-color);
+}
+
+.varieta-miele-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+}
+
+.varieta-miele-header h3 {
+    margin: 0 !important;
+    color: var(--main-color);
+    font-size: 1.3rem;
+}
+
+.varieta-prezzi-tag {
+    background: rgba(255, 159, 13, 0.16);
+    border: 1px solid var(--main-color);
+    color: #ffd700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+@media (max-width: 960px) {
+    .listino-riepilogo {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
