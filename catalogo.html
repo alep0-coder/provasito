@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-       <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo Mieli Artigianali e Prodotti dell'Alveare | Le Api di Rospocchia</title>
-    <meta name="description" content="Sfoglia il nostro catalogo di mieli rigorosamente artigianali: Acacia, Millefiori, Tiglio, Melata, oltre a Tintura di Propoli, Polline Fresco e Candele pure in cera d'api.">
+    <meta name="description" content="Sfoglia il nostro catalogo di mieli rigorosamente artigianali: il Miele di Acacia premiato Tre Gocce d'Oro, Millefiori, Castagno, Melata, oltre a Pappa Reale, Propoli, Polline e Candele.">
     <link rel="stylesheet" href="style.css">
 
     <!--box icons-->
-    <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-<!--google fonts-->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/logo1.svg" type="image/svg+xml">
-  <script src="script.js"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo_def.svg" type="image/svg+xml">
+    <script src="script.js"></script>
 </head>
 <body>
     <!--header-->
 <header>
-  
-  <a href="index.html" class="logo"><img src="images/logo_def.svg" alt="Logo">Le Api Di Rospocchia</a>
+  <a href="index.html" class="logo"><img src="images/logo_def.svg" alt="Logo Le Api di Rospocchia">Le Api Di Rospocchia</a>
 
   <ul class="navlist">
-      <li><a href="index.html" >Home</a></li>
-      <li><a href="curiosità.html" >Curiosità</a></li>
-      <li><a href="catalogo.html"class="active">Catalogo</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="curiosita.html">Curiosità</a></li>
+      <li><a href="catalogo.html" class="active">Catalogo</a></li>
+      <li><a href="premi.html">Premi</a></li>
       <li><a href="dove_trovarci.html">Dove trovarci</a></li>
       <li><a href="didattica.html">Didattica</a></li>
   </ul>
@@ -43,106 +41,134 @@
 
 <!-- Sezione Catalogo -->
 <section class="catalogo">
-    <h1>I Nostri Tipi di Miele</h1>
-    <p>Esplora i nostri diversi tipi di miele, ognuno con un sapore unico e proprietà benefiche.</p>
-    
+    <a href="premi.html" class="hero-award-badge"><i class='bx bxs-trophy'></i> Miele di Acacia Premiato con 2 Gocce d'Oro e 1 Goccia d'Oro 2026 — Scopri i Premi</a>
+    <h1>Il Nostro Catalogo</h1>
+    <p>Dalle colline di Montecalvo Versiggia, i frutti genuini del lavoro delle nostre api.</p>
+
+    <!-- Categoria: I Nostri Mieli -->
+    <h2 class="categoria-titolo">I Nostri Mieli</h2>
     <div class="prodotti">
         <!-- Miele di Acacia -->
-        <div class="card-prodotto"><a href="acacia.html">
-            <img src="images/acacia.jpg" alt="Miele di Acacia">
-            <h2>Miele di Acacia</h2>
-            <p>Dolce e delicato, perfetto per tè e tisane. Ricco di proprietà calmanti.</p></a>
+        <div class="card-prodotto">
+            <span class="card-badge-oro"><i class='bx bxs-trophy'></i> 2 Gocce d'Oro</span>
+            <a href="acacia.html">
+                <img src="images/acacia_apiario.jpg" alt="Fioritura di Acacia nel nostro apiario">
+                <h2>Miele di Acacia</h2>
+                <p>Premiato al Concorso Nazionale Tre Gocce d'Oro 2026: delicato, purissimo e cristallino.</p>
+            </a>
         </div>
 
         <!-- Miele Millefiori -->
         <div class="card-prodotto"><a href="millefiori.html">
-            <img src="images/millefiori_new.png" alt="Miele Millefiori">
+            <img src="images/prato_fiorito_arnie.jpg" alt="Miele Millefiori e fioriture spontanee in apiario">
             <h2>Miele Millefiori</h2>
-            <p>Aroma variegato, rappresenta l'essenza dei fiori locali. Ottimo energizzante naturale.</p>
-        </div>
-
-        <!-- Miele di Tiglio -->
-        <div class="card-prodotto"><a href="tiglio.html">
-            <img src="images/tiglio.jpg" alt="Miele di Tiglio">
-            <h2>Miele di Tiglio</h2>
-            <p>Rinfrescante e leggermente balsamico, ideale per calmare e rilassare.</p></a>
+            <p>L'essenza del nostro territorio racchiusa in tre varietà stagionali: Invernale, Estivo e Autunnale.</p></a>
         </div>
 
         <!-- Miele di Castagno -->
         <div class="card-prodotto"><a href="castagno.html">
-            <img src="images/castagno.jpg" alt="Miele di Castagno">
+            <img src="images/apiario_castagno_autunno.jpg" alt="Arnie nel bosco di castagno">
             <h2>Miele di Castagno</h2>
-            <p>Intenso e aromatico, con un retrogusto leggermente amaro. Perfetto per abbinamenti salati.</p>
+            <p>Intenso e ambrato, con quel retrogusto amarognolo che conquista i palati più decisi.</p></a>
         </div>
 
         <!-- Miele di Melata -->
         <div class="card-prodotto"><a href="melata.html">
-            <img src="images/melata.jpg" alt="Miele di Melata">
+            <img src="images/apiario_bosco_montagna.jpg" alt="Apiario nei boschi dell'Oltrepò per il Miele di Melata">
             <h2>Miele di Melata</h2>
-            <p>Denso e scuro, ricco di minerali. Ideale per rafforzare le difese immunitarie.</p></a>
-        </div>
-
-        <!-- Miele di Edera -->
-        <div class="card-prodotto"><a href="edera.html">
-            <img src="images/edera_new.png" alt="Miele di Edera">
-            <h2>Miele di Edera</h2>
-            <p>Raro e pregiato, dal sapore intenso e leggermente acidulo. Usato per il benessere respiratorio.</p>
+            <p>Il "miele di bosco": scuro, denso e ricchissimo di sali minerali, ideale per gli sportivi.</p></a>
         </div>
 
         <!-- Miele di Erba Medica -->
-        <div class="card-prodotto"> <a href="erba_medica.html">
-            <img src="images/medica.jpg" alt="Miele di Erba Medica">
+        <div class="card-prodotto"><a href="erba_medica.html">
+            <img src="images/apiario_erba_medica.jpg" alt="Arnie tra i fiori viola di Erba Medica">
             <h2>Miele di Erba Medica</h2>
-            <p>Leggero e dolce, dal gusto delicato. Ottimo per dolcificare senza alterare i sapori.</p> </a>
+            <p>Il sapore della tradizione: delicato, con note di fieno fresco, perfetto per ogni momento.</p></a>
         </div>
 
         <!-- Miele di Ailanto -->
         <div class="card-prodotto"><a href="ailanto.html">
             <img src="images/ailanto.jpg" alt="Miele di Ailanto">
             <h2>Miele di Ailanto</h2>
-            <p>Esotico e profumato, con un sapore fruttato e tropicale. Perfetto per sperimentare nuovi abbinamenti.</p> </a>
+            <p>Una rarità aromatica dal profumo inconfondibile di pesca matura e uva moscata.</p></a>
         </div>
+
         <!-- Miele di Tarassaco -->
         <div class="card-prodotto"><a href="tarassaco.html">
             <img src="images/tarassaco_card.png" alt="Miele di Tarassaco">
             <h2>Miele di Tarassaco</h2>
-            <p>Dal sapore pungente e inconfondibile, straordinario diuretico.</p> </a>
+            <p>Energia pura e azione depurativa: un miele dal carattere forte e cristallizzazione cremosa.</p></a>
+        </div>
+    </div>
+
+    <!-- Categoria: Benessere & Cosmesi -->
+    <h2 class="categoria-titolo">Benessere & Cosmesi</h2>
+    <div class="prodotti">
+        <!-- Burro Cacao -->
+        <div class="card-prodotto"><a href="burro_cacao.html">
+            <img src="images/burro_cacao_card.png" alt="Burro Cacao al Miele">
+            <h2>Burro Cacao</h2>
+            <p>Nutre e protegge le labbra con la forza naturale della cera d'api e del miele.</p></a>
+        </div>
+
+        <!-- Saponette -->
+        <div class="card-prodotto"><a href="saponette.html">
+            <img src="images/saponette_card.png" alt="Saponette Artigianali al Miele">
+            <h2>Saponette</h2>
+            <p>Detergenza delicata ed emolliente per una pelle sempre morbida e profumata.</p></a>
         </div>
 
         <!-- Pappa Reale -->
         <div class="card-prodotto"><a href="pappa.html">
-            <img src="images/pappa_reale.jpg" alt="Pappa Reale">
+            <img src="images/pappa_reale_hd.jpg" alt="Pappa Reale Fresca">
             <h2>Pappa Reale</h2>
-            <p>Il potente elisir della regina per l'energia e la memoria di tutta la famiglia.</p> </a>
+            <p>Il segreto della longevità dell'ape regina: un ricostituente naturale senza pari.</p></a>
         </div>
         
         <!-- Tintura di Propoli -->
         <div class="card-prodotto"><a href="propoli.html">
             <img src="images/propoli_card.png" alt="Tintura di Propoli">
-            <h2>Tintura di Propoli</h2>
-            <p>L'insuperabile e potente disinfettante selvatico delle api per mal di gola e afte.</p> </a>
+            <h2>Propoli</h2>
+            <p>Il potente antibiotico naturale delle api, alleato prezioso contro i malanni di stagione.</p></a>
         </div>
         
         <!-- Polline Fresco -->
         <div class="card-prodotto"><a href="polline.html">
             <img src="images/polline_card.png" alt="Polline Fresco">
             <h2>Polline Fresco</h2>
-            <p>Misteriose palline ricolme di pura eccezionale proteina e vitamine dal campo fiorito.</p> </a>
+            <p>Un superfood ricolmo di proteine e vitamine, per una sferzata di energia quotidiana.</p></a>
         </div>
-        
+    </div>
+
+    <!-- Categoria: Dolci & Idee Regalo -->
+    <h2 class="categoria-titolo">Dolci & Idee Regalo</h2>
+    <div class="prodotti">
+        <!-- Caramelle -->
+        <div class="card-prodotto"><a href="caramelle.html">
+            <img src="images/caramelle_card.png" alt="Caramelle al Miele">
+            <h2>Caramelle al Miele</h2>
+            <p>Tutta la dolcezza del nostro miele in una caramella artigianale che dona sollievo alla gola.</p></a>
+        </div>
+
         <!-- Candele in Cera D'Api -->
         <div class="card-prodotto"><a href="candele.html">
             <img src="images/candele_card.png" alt="Candele in Cera D'Api">
-            <h2>Candele in pura Cera D'Api</h2>
-            <p>Tutta l'aura aurea e la depurazione sana e biologica della fiamma in un favoloso profumo.</p> </a>
+            <h2>Candele in Cera D'Api</h2>
+            <p>Atmosfera e profumo di alveare: pura cera d'api per illuminare i tuoi momenti speciali.</p></a>
         </div>
     </div>
 </section>
 
-
-
-
-
+    <!-- WhatsApp Community Section -->
+    <section class="whatsapp-community">
+        <div class="community-box">
+            <div class="community-content">
+                <h2>Novità in Anteprima? 🐝</h2>
+                <p>Entra nella nostra community WhatsApp per scoprire subito quando i nuovi mieli sono pronti per l'invasettamento!</p>
+                <a href="https://chat.whatsapp.com/HYKdpC15Ua7JCSLjCbOy65" class="community-btn"><i class='bx bxl-whatsapp'></i> Unisciti a noi</a>
+            </div>
+        </div>
+    </section>
 
  <!--contact-->
 <section class="contact" id="contact">
@@ -151,9 +177,9 @@
           <h2>Contattaci</h2>
           <p>Per qualsiasi dolce curiosità</p>
           <div class="social">
-            <a href="https://www.instagram.com/rospocchia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="   class="clr"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="https://www.facebook.com/Rospocchia/"><i class='bx bxl-facebook'></i></a>
-            <a href="https://wa.me/3332372228?text=Ciao,%20vorrei%20informazioni"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.instagram.com/rospocchia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="clr" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.facebook.com/Rospocchia/" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="https://wa.me/393332372228?text=Ciao,%20vorrei%20informazioni" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
           </div>
       </div>
       <div class="details">
@@ -161,24 +187,23 @@
               <i class='bx bxs-location-plus'></i>Montecalvo Versiggia (PV)
           </div>
           <div class="main-d">
-              <a href="tel:3332372228"><i class='bx bx-mobile-alt'></i>3332372228</a>
+              <a href="tel:+393332372228"><i class='bx bx-mobile-alt'></i>333 237 2228</a>
           </div>
           <div class="main-d">
-            <i class='bx bx-mail-send'></i>patrizia_alfano@virgilio.it
-        </div>
+              <a href="mailto:patrizia_alfano@virgilio.it"><i class='bx bx-mail-send'></i>patrizia_alfano@virgilio.it</a>
+          </div>
       </div>
   </div>
 </section>
 <!---scroll-->
-<a href="#" class="scroll">
+<a href="#" class="scroll" aria-label="Torna su">
   <i class='bx bx-up-arrow-alt'></i>
 </a>
 
 <!-- footer -->
 <footer>
-  <p>&copy; 2025 Le Api di Rospocchia. Tutti i diritti riservati. | <a href="privacy.html" style="color: var(--main-color); text-decoration: underline; font-weight: 500;">Privacy Policy</a></p>
+  <p>&copy; 2025 Le Api di Rospocchia. Tutti i diritti riservati. | P.IVA 01234567890 | <a href="privacy.html">Privacy Policy</a></p>
 </footer>
-
 
 </body>
 </html>
